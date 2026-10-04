@@ -1,0 +1,91 @@
+// Treatment categories and the conditions listed under each.
+// `id` is used for the anchor on /treatments/ (e.g. /treatments/#skin-diseases).
+export const treatmentCategories = [
+  {
+    id: 'joint-pain-arthritis-spine',
+    title: 'Joint Pain, Arthritis & Spine',
+    icon: 'uil-bone',
+    conditions: [
+      'Joint Pain',
+      'Knee Pain',
+      'Back Pain',
+      'Neck / Cervical Pain',
+      'Sciatica Pain',
+      'Rheumatoid Arthritis',
+      'Osteoarthritis',
+      'Gout',
+      'Frozen Shoulder',
+      'Muscle Pain',
+    ],
+  },
+  {
+    id: 'skin-diseases',
+    title: 'Skin Diseases',
+    icon: 'uil-smile-beam',
+    conditions: [
+      'Psoriasis',
+      'Eczema',
+      'Dermatitis',
+      'Fungal Infection',
+      'Acne',
+      'Vitiligo',
+      'Cellulitis',
+      'Hives / Urticaria',
+      'Skin Pigmentation',
+    ],
+  },
+  {
+    id: 'womens-health',
+    title: "Women's Health",
+    icon: 'uil-heart-alt',
+    conditions: ['PCOD / PCOS', 'Period Problems', 'Leucorrhoea', 'Fibroids'],
+  },
+  {
+    id: 'digestive-gut-problems',
+    title: 'Digestive & Gut Problems',
+    icon: 'uil-medkit',
+    conditions: ['Acidity', 'Gastritis', 'Indigestion', 'Constipation', 'Piles'],
+  },
+  {
+    id: 'respiratory-allergy',
+    title: 'Respiratory & Allergy',
+    icon: 'uil-wind',
+    conditions: ['Asthma', 'Allergic Rhinitis', 'Sinusitis', 'URTI', 'Allergy'],
+  },
+  {
+    id: 'diabetes-thyroid-weight',
+    title: 'Diabetes, Thyroid & Weight',
+    icon: 'uil-balance-scale',
+    conditions: [
+      'Diabetes',
+      'Obesity',
+      'Thyroid',
+      'Prediabetes Support',
+      'High Cholesterol',
+    ],
+  },
+  {
+    id: 'migraine-stress-sleep',
+    title: 'Migraine, Stress & Sleep',
+    icon: 'uil-brain',
+    conditions: ['Migraine', 'Stress', 'Sleep Problems'],
+  },
+  {
+    id: 'kidney-urinary-problems',
+    title: 'Kidney & Urinary Problems',
+    icon: 'uil-tear',
+    conditions: ['Kidney Stones', 'Urinary Burning', 'BPH'],
+  },
+  {
+    id: 'child-care',
+    title: 'Child Care',
+    icon: 'uil-flower',
+    conditions: ['Immunity Building', 'Suvarnaprashan', 'Recurrent Cold & Cough'],
+  },
+  {
+    id: 'general-preventive-ayurveda',
+    title: 'General & Preventive Ayurveda',
+    icon: 'uil-leaf',
+    conditions: ['Anaemia', 'Preventive Ayurveda'],
+  },
+];
