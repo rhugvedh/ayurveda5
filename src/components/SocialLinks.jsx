@@ -4,7 +4,7 @@ const socialLinks = [
   {
     id: 1,
     icon: 'uil uil-facebook-f',
-    url: 'https://www.facebook.com/',
+    url: 'https://www.facebook.com/profile.php?id=61587561045724',
   },
   {
     id: 2,
