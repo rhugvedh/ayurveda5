@@ -1,3 +1,5 @@
+import { YOUTUBE_URL } from 'data/contact';
+
 const Topbar = () => {
   const contactItems = [
     {
@@ -21,6 +23,10 @@ const Topbar = () => {
       href: 'https://www.instagram.com/',
       icon: 'uil-instagram',
     },
+    {
+      href: YOUTUBE_URL,
+      icon: 'uil-youtube',
+    }
   ];
 
   return (
@@ -52,7 +58,7 @@ const Topbar = () => {
               <a
                 key={index}
                 href={href}
-                className={`link-white hover${index === 0 ? ' me-2' : ''}`}
+                className={`link-white hover${index < socialLinks.length - 1 ? ' me-2' : ''}`}
               >
                 <div className="icon text-white fs-22 mt-1">
                   <i className={`uil ${icon}`} />
