@@ -10,11 +10,14 @@ const serviceLinkMap = {
   'Basti (Enema Therapy)': '/basti-therapy-in-wagholi/',
   'Vaman (Emesis Therapy)': '/vaman-therapy-in-wagholi/',
   'Raktamokshan (Bloodletting)': '/raktamokshana-therapy-in-wagholi/',
+  'Upakarma': '/ayurvedic-therapies-upakarma-wagholi/'
 };
 
 const usefulLinkMap = {
   Home: '/',
+  'About Us':'/about-us/',
   Gallery: '/gallery/',
+  'Contact Us':'/contact-us/'
 };
 
 /**

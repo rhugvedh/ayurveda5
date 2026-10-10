@@ -29,7 +29,7 @@ const therapies = [
   {
     title: 'Shirodhara & Nasya',
     desc: 'Warm oil-stream head therapy and nasal treatments for stress, sleep and sinus relief.',
-    href: '#contact',
+    href: '/ayurvedic-therapies-upakarma-wagholi/',
   },
 ];
 

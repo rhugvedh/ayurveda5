@@ -37,7 +37,7 @@ const Hero = () => {
                     Book Appointment <span className="arrow">→</span>
                   </span>
                 }
-                href="#contact"
+                href="/contact-us"
                 className="btn btn-lg btn-primary-navy rounded merriweather"
               />
               <NextLink
@@ -46,7 +46,7 @@ const Hero = () => {
                     Explore Therapies <span className="arrow">↗</span>
                   </span>
                 }
-                href="#services"
+                href="/"
                 className="btn btn-lg btn-outline-navy rounded merriweather"
               />
             </div>

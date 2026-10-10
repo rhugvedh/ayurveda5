@@ -14,9 +14,6 @@ export const usefulLinks = [
   { id: 2, title: 'About Us' },
   { id: 3, title: 'Gallery' },
   { id: 4, title: 'Contact Us' },
-  { id: 5, title: 'Book Appointment' },
-  { id: 6, title: 'Privacy Policy' },
-  { id: 7, title: 'Sitemap' }
 ];
 
 // ===================== About List =====================
